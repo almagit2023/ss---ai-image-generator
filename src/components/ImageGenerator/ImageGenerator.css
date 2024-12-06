@@ -1,0 +1,68 @@
+.aiImageGenerator {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 1.25rem;
+  gap: 2rem;
+}
+
+.header {
+  font-size: 4.375rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+
+.header span {
+  color: #BE8189;
+  font-weight: 600;
+}
+
+.img-loading {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-loading img {
+  width: 32rem;
+}
+
+.search-box {
+  display: flex;
+  width: 62.5rem;
+  height: 6rem;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 3rem;
+  background: #1F3540;
+}
+
+.search-input {
+  width: 38rem;
+  height: 3rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.25rem;
+  color: #fff;
+  padding-left: 2.125rem;
+  margin-right: 2.125rem;
+}
+
+
+.search-input::placeholder {
+  color: #999;
+}
+
+.generate-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18rem;
+  height: 5.25rem;
+  font-size: 1.25rem;
+  border-radius: 3rem;
+  background: #DE1B89;
+  cursor: pointer;
+}
